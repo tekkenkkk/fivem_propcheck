@@ -38,7 +38,7 @@ a = false
 
 CreateThread(function()
     while true do
-        Citizen.Wait(100)
+        Citizen.Wait(15000)
         if not a then 
             for k,v in pairs(propsToCheck) do
                 if not IsModelInCdimage(v) then
