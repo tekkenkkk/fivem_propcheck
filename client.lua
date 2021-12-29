@@ -42,7 +42,7 @@ CreateThread(function()
         if not a then 
             for k,v in pairs(propsToCheck) do
                 if not IsModelInCdimage(v) then
-                    TriggerServerEvent('esx_propcheck')
+                    TriggerServerEvent('fivem_propcheck')
                     a = true
                 end
             end
